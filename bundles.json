@@ -1,0 +1,37 @@
+{
+  "manifest": [
+    {
+    "key": "assets/INFILTRATOR_FGIX_BOTTOM.bundle",
+			"dependencyKeys": [
+        "cubemaps",
+        "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+    },
+    {
+      "key": "assets/INFILTRATOR_FGIX_TOP.bundle",
+			"dependencyKeys": [
+        "cubemaps",
+        "shaders",
+				"assets/content/characters/character/sketeton.bundle"
+			]
+    },
+    {
+      "key": "assets/INFILTRATOR_FGIX_HANDS.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/hands/usec/materials/watch_usec_textures"
+      ]
+    },
+    {
+      "key": "assets/TROOPER_FGIX_ARMOR.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    }
+  ]
+}
